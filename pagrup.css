@@ -1,0 +1,162 @@
+body{
+    background-color:#fff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(247, 232, 209);
+    
+}
+
+header{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+   
+}
+header img{
+    padding: 10px;
+    border-radius: 20px;
+}
+h2{
+    color: white;
+}
+header input{
+    width: 300px;
+    padding: 7px;
+}
+nav {
+    display: flex;
+    font-weight: 600;
+    padding-right: 10px;
+   
+}
+a{
+    padding: 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    text-decoration:none;
+    color: rgb(232, 232, 238);
+}
+
+nav a:hover{
+    color: rgb(0, 18, 18);
+    text-decoration: none;
+    background-color: red;
+    border-radius: 20px;
+}
+
+.conteiner{
+    background-image: url(/imagenes/fondoPantallaMar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+  
+}     
+.conteiner h1,h2,h3 {
+    margin: 0%;
+    font-weight: 800;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.nombre{
+    color: red;
+}
+.titulo{
+    font-family: cursive;
+   
+}
+
+.servicios{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.servicios img{
+    display: flex;
+    border-radius: 50px;
+    height: 200px;
+    margin: 10px;
+}
+.servic{
+    display: flex;
+}
+.servic h2 {
+    display: flex;
+    font-weight: 600;
+    font-size: 40px;
+    color: red;
+    justify-content: center;
+}
+.img2{
+    padding-left:200px;
+}
+.Nosotros{
+    display: flex;
+    justify-content: space-around;
+}
+.Nosotros h3 {
+    margin: 10px;
+   color:red;
+   font-size: 30px;
+   font-weight: 400;
+}
+.lista{  
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 3, 3);
+    font-size: 30px;
+    font-weight: 400;
+}
+.doclista{
+    color: black;
+}
+
+.Nosotros p{
+    font-size: 30px;
+    font-weight: 400;
+    justify-content: center;
+}
+.ofert{
+    color: red;
+    display: flex;
+    justify-content: center;
+}
+.ofertH{
+    border-style: groove;
+    border-radius: 20px;
+}
+.ofertH p{
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+}
+.contactar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+footer h4{
+    color: red;
+}
+
+.hotimg,.hotimg2{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+}
+ 
+@media (max-width:640px) {
+    .nav{
+        display: inline-flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 18px;
+    }
+}

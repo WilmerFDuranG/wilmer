@@ -1,0 +1,66 @@
+header{
+    background-color: rgb(4, 4, 38);
+    margin:auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+}
+.pel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+margin: 10px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0px 0px 10px blue;
+}
+
+header{
+    background-color: rgb(4, 4, 38);
+    margin:auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 1%;
+    color: white;
+}
+.pel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+}
+.tarjeta{
+margin: 10px;
+border-radius: 10px;
+text-align: center;
+box-shadow: 0px 0px 10px blue;
+}
+.btn{
+    background-color: aqua;
+   
+}
+  
